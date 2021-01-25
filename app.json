@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "help-on-spot",
+    "slug": "help-on-spot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Image2.png",
+    "splash": {
+      "image": "./assets/splashimage.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android":{
+      "package": "com.testuser.helpapp"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.testuser.helpapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
